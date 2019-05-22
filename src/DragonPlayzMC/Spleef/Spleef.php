@@ -80,14 +80,14 @@ class Spleef extends PluginBase implements Listener {
 			$messages = array();
 			$messages["Kill"] = "killed by";
 			$messages["Cannotjoin"] = "You cannot join!";
-			$messages["Seconds"] = "segundos para iniciar";
+			$messages["Seconds"] = "seconds to start";
 			$messages["Won"] = "§aWon in the: §b";
 			$messages["deathmatchminutes"] = "minutes to DeathMatch!";
 			$messages["deathmatchseconds"] = "seconds to DeathMatch!";
 			$messages["chestrefill"] = "The chest have been refilled!";
 			$messages["remainingminutes"] = "minutes remaining";
 			$messages["remainingseconds"] = "seconds remaining";
-			$messages["nowinner"] = "§cNo Winner in: §b";
+			$messages["nowinner"] = "§cNot a single one won in: §b";
 			$messages["moreplayers"] = "Need more players";
 			$lang->set("en",$messages);
 		}
